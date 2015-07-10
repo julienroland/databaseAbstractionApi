@@ -1,0 +1,25 @@
+{
+  "name": "burger/storage",
+  "description": "Storage management",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Dogstudio",
+      "homepage": "http://dogstudio.be"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ramsey/uuid": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.4.*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Burger\\Storage\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
